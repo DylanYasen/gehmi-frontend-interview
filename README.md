@@ -1,10 +1,7 @@
 # GEHMI Engineering
 ##### Frontend Dev Interview Test:
  - Use React with ES6 to implement the given design 
- - Following [React Bootstrap](https://react-bootstrap.github.io/components.html) components can be used for responsiveness
- -- Grid
- -- Row
- -- Col
+ - Use [React Bootstrap](https://react-bootstrap.github.io/components.html) components for responsive implementation
  - Work under src/routes/home directory, don't need to worry about the project structure 
 
 ##### Goal
