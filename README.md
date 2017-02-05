@@ -16,25 +16,25 @@ Please implement the following design and then submit your repo link when finish
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Home.css';
 import cx from 'classnames';
-    ...
-  <div className={s.root}>css modules</div>
-  <div className={cx(s.root,s.highlight)}>css modules</div>
-    ....
+...
+<div className={s.root}>css modules</div>
+<div className={cx(s.root,s.highlight)}>css modules</div>
+....
 // wrap with higher order component when export
 export default withStyles(s)(Home);
 
 
 // Exmaple for using inline styling
-    ...
-  <div style={{textAlign:'center'}}>
-    css module
-  </div>
+...
+<div style={{textAlign:'center'}}>
+ css module
+</div>
   
-  <div style={Object.assign({
-    styles.common,
-    {textAlign:'center'}
-  })}>
-    inline styling
-  </div>
-    ...
+<div style={Object.assign({
+ styles.common,
+ {textAlign:'center'}
+})}>
+ inline styling
+</div>
+...
 ```
