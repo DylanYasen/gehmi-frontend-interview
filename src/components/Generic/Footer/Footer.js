@@ -16,8 +16,8 @@ const FooterLink = (props) => (
 class Footer extends React.Component {
   render() {
     return (
-      <footer>
-        <Grid fluid className={s.root} >
+      <footer >
+        <Grid fluid className={s.root}>
           <Row className={s.flexRow}>
             <Col sm={4} >
               <h2 className={s.brandText}>GEHMI</h2>
